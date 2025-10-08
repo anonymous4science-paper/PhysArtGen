@@ -113,7 +113,7 @@ Under `articulated_utils/agent/`, the agent system orchestrates:
 - Joint prediction (`actor/joint_prediction/`),
 - Critique and verification (`critic/*`, `verifier/*`).
 
-Prompts are documented in `agent_prompts.md` and `prompts.md`.
+Prompts are documented in `agent_prompts.md`.
 
 ---
 
