@@ -1,0 +1,4 @@
+filing cabinet cabinet
+link_0 free trashcan_body
+link_1 hinge door
+link_2 slider drawer

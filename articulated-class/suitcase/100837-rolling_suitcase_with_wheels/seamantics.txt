@@ -1,0 +1,5 @@
+rolling suitcase with wheels
+link_0 slider translation_handle
+link_1 hinge wheel
+link_2 hinge wheel
+link_3 free suitcase_body

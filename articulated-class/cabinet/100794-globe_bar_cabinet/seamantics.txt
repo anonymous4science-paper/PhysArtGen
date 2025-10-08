@@ -1,0 +1,5 @@
+globe bar cabinet
+link_0 hinge sphere
+link_1 hinge sphere
+link_2 hinge circle
+link_3 free globe_frame

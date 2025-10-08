@@ -1,0 +1,4 @@
+safe with shelves
+link_0 hinge door
+link_1 heavy safe_body
+link_2 hinge knob

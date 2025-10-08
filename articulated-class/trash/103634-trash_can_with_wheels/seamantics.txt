@@ -1,0 +1,5 @@
+trash can with wheels
+link_0 hinge lid
+link_1 hinge wheel
+link_2 hinge wheel
+link_3 free trashcan_body

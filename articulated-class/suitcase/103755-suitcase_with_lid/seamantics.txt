@@ -1,0 +1,4 @@
+suitcase with lid
+link_0 hinge rotation_handle
+link_1 hinge lid
+link_2 free suitcase_body

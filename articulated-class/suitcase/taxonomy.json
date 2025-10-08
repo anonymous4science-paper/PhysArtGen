@@ -1,0 +1,18 @@
+{
+  "category": "suitcase",
+  "part_taxonomy": [
+    "body",
+    "handle",
+    "lid",
+    "wheel",
+    "hinge",
+    "slider"
+  ],
+  "semantic_mapping": {
+    "free suitcase_body": "body",
+    "hinge wheel": "wheel",
+    "slider translation_handle": "handle",
+    "hinge rotation_handle": "handle",
+    "hinge lid": "lid"
+  }
+}

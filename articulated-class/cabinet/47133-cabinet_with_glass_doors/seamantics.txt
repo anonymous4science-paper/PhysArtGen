@@ -1,0 +1,3 @@
+cabinet with glass doors
+link_0 heavy furniture_body
+link_1 hinge rotation_door

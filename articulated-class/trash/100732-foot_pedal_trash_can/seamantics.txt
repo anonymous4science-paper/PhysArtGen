@@ -1,0 +1,4 @@
+foot pedal trash can
+link_0 hinge foot_pad
+link_1 slider cover_lid
+link_2 free trashcan_body

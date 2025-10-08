@@ -1,0 +1,3 @@
+fridge with door
+link_0 hinge door
+link_1 heavy refrigerator_body

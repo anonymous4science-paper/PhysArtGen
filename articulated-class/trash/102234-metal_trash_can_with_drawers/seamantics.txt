@@ -1,0 +1,4 @@
+metal trash can with drawers
+link_0 hinge door
+link_1 slider drawer
+link_2 free trashcan_body

@@ -1,0 +1,31 @@
+{
+  "category": "dishwasher",
+  "part_taxonomy": [
+    "body",
+    "drawer",
+    "door",
+    "handle",
+    "lid",
+    "slider",
+    "leg",
+    "wheel",
+    "button",
+    "screen",
+    "knob",
+    "base",
+    "support",
+    "hinge",
+    "shelf",
+    "other"
+  ],
+  "semantic_mapping": {
+    "hinge rotation_door": "door",
+    "heavy dishwasher_body": "body",
+    "slider shelf": "shelf",
+    "hinge knob": "knob",
+    "slider button": "button",
+    "slider drawer": "drawer",
+    "free trashcan_body": "body",
+    "static dishwasher_body": "body"
+  }
+}

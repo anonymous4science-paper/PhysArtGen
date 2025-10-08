@@ -1,0 +1,4 @@
+drawer cabinet cabinet
+link_0 hinge rotation_door
+link_1 slider drawer
+link_2 static furniture_body

@@ -1,0 +1,3 @@
+laptop computer model
+link_0 hinge screen
+link_1 free laptop_base

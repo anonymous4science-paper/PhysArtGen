@@ -1,0 +1,3 @@
+yellow suitcase with handles
+link_0 hinge rotation_handle
+link_1 free suitcase_body

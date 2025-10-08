@@ -1,0 +1,4 @@
+wooden cabinet with drawer
+link_0 hinge rotation_door
+link_1 slider drawer
+link_2 heavy furniture_body

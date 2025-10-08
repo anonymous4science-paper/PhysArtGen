@@ -1,0 +1,3 @@
+trashcan with lid
+link_0 slider cover_lid
+link_1 free trashcan_body

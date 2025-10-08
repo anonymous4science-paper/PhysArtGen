@@ -1,0 +1,4 @@
+door with frame
+link_0 hinge rotation_door
+link_1 static door_frame
+link_2 hinge rotation_door

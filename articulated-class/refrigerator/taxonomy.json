@@ -1,0 +1,15 @@
+{
+  "category": "refrigerator",
+  "part_taxonomy": [
+    "body",
+    "door",
+    "hinge",
+    "other"
+  ],
+  "semantic_mapping": {
+    "hinge door": "door",
+    "heavy refrigerator_body": "body",
+    "hinge rotation_door": "hinge",
+    "heavy furniture_body": "other"
+  }
+}

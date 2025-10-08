@@ -1,0 +1,3 @@
+door with hinge
+link_0 static door_frame
+link_1 hinge rotation_door

@@ -1,0 +1,4 @@
+sliding door cabinet
+link_0 slider translation_door
+link_1 slider translation_door
+link_2 static furniture_body

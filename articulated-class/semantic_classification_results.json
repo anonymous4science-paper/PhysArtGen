@@ -1,0 +1,374 @@
+{
+  "laptop": {
+    "category": "laptop",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "laptop_base"
+        ],
+        "description": "物体的主要结构部分，承载内部硬件组件并提供稳定支撑。"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "screen"
+        ],
+        "description": "用于显示内容并可开合的部件，通常通过铰链连接主体部件。"
+      }
+    ],
+    "semantic_mapping": {
+      "laptop_base": "base",
+      "screen": "lid"
+    },
+    "summary": "该类别物体由两个主要部件组成：主体部件（laptop_base）和开合部件（screen）。主体部件负责承载硬件和提供支撑，开合部件用于显示内容并通过铰链实现开合功能。"
+  },
+  "table": {
+    "category": "table",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "furniture_body"
+        ],
+        "description": "物体的主要结构部分，提供支撑和整体形态"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "door",
+          "drawer"
+        ],
+        "description": "用于开启和关闭的部件，提供存储和访问功能"
+      },
+      {
+        "type_name": "功能部件",
+        "parts": [
+          "board"
+        ],
+        "description": "提供特定功能的部件，如表面操作或放置物品"
+      }
+    ],
+    "semantic_mapping": {
+      "furniture_body": "furniture_body",
+      "door": "door",
+      "drawer": "drawer",
+      "board": "board"
+    },
+    "summary": "该类别物体主要由主体部件、开合部件和功能部件构成。主体部件提供整体结构和支撑，开合部件如抽屉和门用于存储和访问，功能部件如桌面板用于操作和放置物品。"
+  },
+  "window": {
+    "category": "window",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "window_frame"
+        ],
+        "description": "物体的主要结构部分，提供支撑和形状"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "translation_window",
+          "rotation_window"
+        ],
+        "description": "用于开启和关闭的部件，提供通风和光线调节功能"
+      }
+    ],
+    "semantic_mapping": {
+      "translation_window": "window",
+      "rotation_window": "window"
+    },
+    "summary": "该类别物体主要由窗框作为支撑结构，开合部件包括平移窗和旋转窗，用于调节通风和光线。"
+  },
+  "refrigerator": {
+    "category": "refrigerator",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "refrigerator_body",
+          "furniture_body"
+        ],
+        "description": "冰箱的主要结构部分，提供整体支撑和形状"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "door",
+          "rotation_door"
+        ],
+        "description": "用于开启和关闭冰箱的部件，提供隔热和密封功能"
+      }
+    ],
+    "semantic_mapping": {
+      "refrigerator_body": "body",
+      "furniture_body": "body",
+      "door": "door",
+      "rotation_door": "door"
+    },
+    "summary": "冰箱主要由主体部件和开合部件组成。主体部件包括冰箱的整体结构，提供支撑和形状；开合部件包括门，用于隔热和密封。"
+  },
+  "door": {
+    "category": "door",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "door_frame",
+          "window_frame"
+        ],
+        "description": "提供结构支撑和边界的部件"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "rotation_door",
+          "translation_door",
+          "translation_window"
+        ],
+        "description": "用于开启和关闭的部件，允许物体的开合或移动"
+      }
+    ],
+    "semantic_mapping": {
+      "rotation_door": "door",
+      "translation_door": "door",
+      "door_frame": "frame",
+      "translation_window": "window",
+      "window_frame": "frame"
+    },
+    "summary": "该类别物体主要由提供结构支撑的框架和用于开合的门窗部件构成。开合部件包括旋转门、平移门和窗，结构部件则包括门框和窗框。"
+  },
+  "desk": {
+    "category": "desk",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "furniture_body",
+          "display_base",
+          "board"
+        ],
+        "description": "物体的主要结构部分，提供整体支撑和功能基础"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "door",
+          "drawer"
+        ],
+        "description": "用于存储、开启和关闭的部件，提供存取功能"
+      },
+      {
+        "type_name": "功能部件",
+        "parts": [
+          "handle",
+          "rotation_screen"
+        ],
+        "description": "用于增强功能性或交互性的部件，例如操作、旋转或移动"
+      }
+    ],
+    "semantic_mapping": {
+      "furniture_body": "主体部件",
+      "display_base": "主体部件",
+      "board": "主体部件",
+      "door": "开合部件",
+      "drawer": "开合部件",
+      "handle": "功能部件",
+      "rotation_screen": "功能部件"
+    },
+    "summary": "该类别物体（desk）的部件主要分为三类：主体部件（如furniture_body、display_base），用于提供整体支撑和结构；开合部件（如drawer、door），用于存储和开启；功能部件（如handle、rotation_screen），用于增强交互性或提供附加功能。主体部件是最重要的组成部分，占据了物体的主要结构，而开合部件和功能部件则为其提供了额外的实用性和灵活性。"
+  },
+  "dishwasher": {
+    "category": "dishwasher",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "dishwasher_body"
+        ],
+        "description": "物体的主要结构部分，提供整体框架和支撑"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "rotation_door"
+        ],
+        "description": "用于开启和关闭的部件，方便放置或取出物品"
+      },
+      {
+        "type_name": "功能部件",
+        "parts": [
+          "button",
+          "knob"
+        ],
+        "description": "用于控制和操作的部件，例如启动、调节功能或模式"
+      },
+      {
+        "type_name": "存储部件",
+        "parts": [
+          "drawer",
+          "shelf"
+        ],
+        "description": "用于存放或分类物品的部件，通常位于内部"
+      },
+      {
+        "type_name": "其他部件",
+        "parts": [
+          "trashcan_body"
+        ],
+        "description": "与主要功能无直接关联的部件，可能是附加功能或设计元素"
+      }
+    ],
+    "semantic_mapping": {
+      "dishwasher_body": "dishwasher_body",
+      "rotation_door": "rotation_door",
+      "shelf": "shelf",
+      "drawer": "drawer",
+      "button": "button",
+      "knob": "knob",
+      "trashcan_body": "trashcan_body"
+    },
+    "summary": "该类别物体主要由主体部件（dishwasher_body）构成，提供整体框架和支撑。开合部件（rotation_door）用于开启和关闭，方便用户操作。功能部件（button, knob）用于控制和调节设备功能。存储部件（drawer, shelf）用于分类和存放物品。此外，还有其他部件（trashcan_body）作为附加设计元素。"
+  },
+  "suitcase": {
+    "category": "suitcase",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "suitcase_body"
+        ],
+        "description": "行李箱的主要结构部分，提供整体形状和容量"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "lid"
+        ],
+        "description": "用于开启和关闭行李箱的部件，保护内部物品"
+      },
+      {
+        "type_name": "功能部件",
+        "parts": [
+          "translation_handle",
+          "rotation_handle"
+        ],
+        "description": "用于携带和移动行李箱的部件"
+      },
+      {
+        "type_name": "支撑部件",
+        "parts": [
+          "wheel"
+        ],
+        "description": "用于支撑和移动行李箱的部件，提供滚动功能"
+      }
+    ],
+    "semantic_mapping": {
+      "suitcase_body": "body",
+      "lid": "lid",
+      "translation_handle": "handle",
+      "rotation_handle": "handle",
+      "wheel": "wheel"
+    },
+    "summary": "行李箱由主体部件、开合部件、功能部件和支撑部件构成。主体部件提供结构和容量，开合部件用于保护内部物品，功能部件便于携带和操作，支撑部件则提供移动的便利性。"
+  },
+  "cabinet": {
+    "category": "cabinet",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "furniture_body",
+          "safe_body",
+          "trashcan_body"
+        ],
+        "description": "物体的主要结构部分，提供支撑和整体形状"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "rotation_door",
+          "translation_door",
+          "door",
+          "drawer"
+        ],
+        "description": "用于开启和关闭的部件，提供存取功能"
+      },
+      {
+        "type_name": "功能部件",
+        "parts": [
+          "knob"
+        ],
+        "description": "用于操作或控制其他部件的部件"
+      },
+      {
+        "type_name": "装饰/附属部件",
+        "parts": [
+          "sphere",
+          "circle",
+          "globe_frame",
+          "board"
+        ],
+        "description": "主要用于装饰或附加功能的部件"
+      }
+    ],
+    "semantic_mapping": {
+      "furniture_body": "body",
+      "safe_body": "body",
+      "trashcan_body": "body",
+      "rotation_door": "door",
+      "translation_door": "door"
+    },
+    "summary": "该类别物体的主要构成包括主体部件如furniture_body和safe_body，提供结构和支撑；开合部件如rotation_door和drawer，提供存取功能；功能部件如knob，用于操作；以及装饰/附属部件如sphere和globe_frame，增加美观或附加功能。"
+  },
+  "trash": {
+    "category": "trash",
+    "main_part_types": [
+      {
+        "type_name": "主体部件",
+        "parts": [
+          "trashcan_body"
+        ],
+        "description": "物体的主要结构部分，通常用于容纳垃圾"
+      },
+      {
+        "type_name": "开合部件",
+        "parts": [
+          "lid",
+          "cover_lid",
+          "door"
+        ],
+        "description": "用于开启和关闭的部件，控制垃圾的存取"
+      },
+      {
+        "type_name": "功能部件",
+        "parts": [
+          "handle",
+          "drawer"
+        ],
+        "description": "用于辅助操作的部件，例如提拉或抽取"
+      },
+      {
+        "type_name": "支撑部件",
+        "parts": [
+          "wheel",
+          "foot_pad"
+        ],
+        "description": "用于支撑或移动垃圾桶的部件"
+      }
+    ],
+    "semantic_mapping": {
+      "trashcan_body": "trashcan_body",
+      "lid": "lid",
+      "cover_lid": "lid",
+      "door": "door",
+      "drawer": "drawer",
+      "handle": "handle",
+      "wheel": "wheel",
+      "foot_pad": "foot_pad"
+    },
+    "summary": "该类别物体主要由主体部件（trashcan_body）、开合部件（lid、cover_lid、door）、功能部件（handle、drawer）和支撑部件（wheel、foot_pad）构成。主体部件负责容纳垃圾，开合部件用于控制垃圾存取，功能部件辅助用户操作，支撑部件提供稳定性或移动能力。部件语义已规范化，确保表达一致性。"
+  }
+}

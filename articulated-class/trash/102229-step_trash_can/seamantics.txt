@@ -1,0 +1,5 @@
+step trash can
+link_0 hinge lid
+link_1 hinge foot_pad
+link_2 hinge handle
+link_3 free trashcan_body

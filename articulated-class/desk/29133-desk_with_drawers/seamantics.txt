@@ -1,0 +1,4 @@
+desk with drawers
+link_0 slider drawer
+link_1 slider drawer
+link_2 heavy furniture_body

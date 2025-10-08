@@ -1,0 +1,3 @@
+window with slider
+link_0 slider translation_window
+link_1 static window_frame

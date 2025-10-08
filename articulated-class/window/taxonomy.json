@@ -1,0 +1,14 @@
+{
+  "category": "window",
+  "part_taxonomy": [
+    "body",
+    "slider",
+    "hinge",
+    "other"
+  ],
+  "semantic_mapping": {
+    "slider translation_window": "slider",
+    "static window_frame": "body",
+    "hinge rotation_window": "hinge"
+  }
+}

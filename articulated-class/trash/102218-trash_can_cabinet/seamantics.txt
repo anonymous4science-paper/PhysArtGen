@@ -1,0 +1,4 @@
+trash can cabinet
+link_0 hinge door
+link_1 hinge door
+link_2 free trashcan_body

@@ -1,0 +1,3 @@
+wooden cabinet door
+link_0 hinge rotation_door
+link_1 heavy furniture_body

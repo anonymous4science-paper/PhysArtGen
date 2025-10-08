@@ -1,0 +1,22 @@
+{
+  "category": "desk",
+  "part_taxonomy": [
+    "body",
+    "drawer",
+    "door",
+    "hinge",
+    "slider",
+    "base",
+    "other"
+  ],
+  "semantic_mapping": {
+    "slider drawer": "drawer",
+    "heavy furniture_body": "body",
+    "hinge door": "door",
+    "hinge rotation_screen": "other",
+    "free display_base": "base",
+    "hinge handle": "other",
+    "hinge board": "other",
+    "slider board": "other"
+  }
+}

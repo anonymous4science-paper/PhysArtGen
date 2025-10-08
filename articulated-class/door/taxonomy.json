@@ -1,0 +1,16 @@
+{
+  "category": "door",
+  "part_taxonomy": [
+    "door",
+    "hinge",
+    "slider",
+    "other"
+  ],
+  "semantic_mapping": {
+    "hinge rotation_door": "hinge",
+    "static door_frame": "door",
+    "slider translation_window": "slider",
+    "static window_frame": "other",
+    "slider translation_door": "slider"
+  }
+}

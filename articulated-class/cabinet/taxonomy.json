@@ -1,0 +1,27 @@
+{
+  "category": "cabinet",
+  "part_taxonomy": [
+    "body",
+    "drawer",
+    "door",
+    "handle",
+    "slider",
+    "hinge",
+    "other"
+  ],
+  "semantic_mapping": {
+    "hinge rotation_door": "door",
+    "heavy furniture_body": "body",
+    "slider drawer": "drawer",
+    "slider translation_door": "door",
+    "hinge door": "door",
+    "hinge knob": "handle",
+    "heavy safe_body": "body",
+    "free trashcan_body": "body",
+    "hinge sphere": "other",
+    "static furniture_body": "body",
+    "hinge board": "other",
+    "hinge circle": "other",
+    "free globe_frame": "other"
+  }
+}

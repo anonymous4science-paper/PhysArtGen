@@ -1,0 +1,12 @@
+{
+  "category": "laptop",
+  "part_taxonomy": [
+    "base",
+    "hinge",
+    "screen"
+  ],
+  "semantic_mapping": {
+    "free laptop_base": "base",
+    "hinge screen": "screen"
+  }
+}

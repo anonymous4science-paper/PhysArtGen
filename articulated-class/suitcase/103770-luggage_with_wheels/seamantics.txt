@@ -1,0 +1,3 @@
+luggage with wheels
+link_0 slider translation_handle
+link_1 free suitcase_body

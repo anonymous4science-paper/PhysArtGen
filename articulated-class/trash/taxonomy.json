@@ -1,0 +1,23 @@
+{
+  "category": "trash",
+  "part_taxonomy": [
+    "body",
+    "lid",
+    "wheel",
+    "door",
+    "drawer",
+    "handle",
+    "other"
+  ],
+  "semantic_mapping": {
+    "free trashcan_body": "body",
+    "hinge lid": "lid",
+    "hinge wheel": "wheel",
+    "hinge foot_pad": "other",
+    "hinge door": "door",
+    "slider cover_lid": "lid",
+    "slider drawer": "drawer",
+    "slider lid": "lid",
+    "hinge handle": "handle"
+  }
+}

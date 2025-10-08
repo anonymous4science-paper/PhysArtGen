@@ -1,0 +1,3 @@
+furniture storage cabinet
+link_0 slider translation_door
+link_1 heavy furniture_body

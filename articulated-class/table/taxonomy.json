@@ -1,0 +1,15 @@
+{
+  "category": "table",
+  "part_taxonomy": [
+    "body",
+    "drawer",
+    "hinge",
+    "other"
+  ],
+  "semantic_mapping": {
+    "slider drawer": "drawer",
+    "heavy furniture_body": "body",
+    "hinge board": "other",
+    "hinge door": "hinge"
+  }
+}

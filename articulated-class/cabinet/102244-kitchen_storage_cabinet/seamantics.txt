@@ -1,0 +1,4 @@
+kitchen storage cabinet
+link_0 hinge door
+link_1 slider drawer
+link_2 free trashcan_body
