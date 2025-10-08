@@ -7,8 +7,6 @@ PhysArtGen is a codebase for articulated 3D object understanding and generation 
 - Multimodal agent framework for mesh retrieval, link placement, joint prediction, and verification (`articulated_utils/agent/*`).
 - Physics simulation and rendering utilities (PyBullet/SAPIEN) in `articulated_utils/physics/*` with URDF tools in `articulated_utils/api/*`.
 
-If you are looking for the paper, please refer to the accompanying PDF. This README focuses on running the code.
-
 ---
 
 ## Repository Structure
@@ -116,23 +114,6 @@ Under `articulated_utils/agent/`, the agent system orchestrates:
 - Critique and verification (`critic/*`, `verifier/*`).
 
 Prompts are documented in `agent_prompts.md` and `prompts.md`.
-
----
-
-## Citation
-
-Please cite the accompanying paper when using this code:
-
-```
-@inproceedings{PhysArtGen2025,
-  title     = {PhysArtGen: <paper title from PDF>},
-  author    = {<authors from PDF>},
-  booktitle = {<venue from PDF>},
-  year      = {2025}
-}
-```
-
-Replace placeholders with details from the PDF.
 
 ---
 
